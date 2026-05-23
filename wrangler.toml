@@ -1,0 +1,16 @@
+name = "fengjiezhuanyun"
+main = "index.js"
+compatibility_date = "2026-05-13"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "fengjiezhuanyun"
+database_id = "44654a96-ef22-4f42-a2c2-71ab51bbdf50"  # 需要填入
+
+[[kv_namespaces]]
+binding = "KV"
+id = "d2eebd58e3aa4bec93e69b33831afc26"  # 需要填入
+
+[[r2_buckets]]
+binding = "R2"
+bucket_name = "fengjiezhuanyun-pdfs"
